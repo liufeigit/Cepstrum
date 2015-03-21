@@ -1,0 +1,383 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		37AD58C1145186CF000D2D8D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37AD58C0145186CF000D2D8D /* UIKit.framework */; };
+		37AD58C3145186CF000D2D8D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37AD58C2145186CF000D2D8D /* Foundation.framework */; };
+		37AD58C5145186CF000D2D8D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37AD58C4145186CF000D2D8D /* CoreGraphics.framework */; };
+		37AD58E314518A1A000D2D8D /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37AD58E214518A1A000D2D8D /* AudioToolbox.framework */; };
+		8E0483771ABDC40F0090B24F /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E0483741ABDC40F0090B24F /* Default-568h@2x.png */; };
+		8E0483781ABDC40F0090B24F /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E0483751ABDC40F0090B24F /* Default.png */; };
+		8E0483791ABDC40F0090B24F /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E0483761ABDC40F0090B24F /* Default@2x.png */; };
+		8E8567131A5DF1830048124D /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E8567121A5DF1830048124D /* Accelerate.framework */; };
+		8EB4CF781ABCCCA600D7F937 /* PlotterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EB4CF771ABCCCA600D7F937 /* PlotterView.m */; };
+		8EB4CF7B1ABCCCB400D7F937 /* AudioProcessor.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EB4CF7A1ABCCCB400D7F937 /* AudioProcessor.m */; };
+		8EB4CF7E1ABCCCC200D7F937 /* MyAudioViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EB4CF7D1ABCCCC200D7F937 /* MyAudioViewController.m */; };
+		8EB4CF801ABCCCCD00D7F937 /* MyAudioViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8EB4CF7F1ABCCCCD00D7F937 /* MyAudioViewController.xib */; };
+		8EB4CF831ABCCCD800D7F937 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EB4CF821ABCCCD800D7F937 /* AppDelegate.m */; };
+		8EB4CF861ABCCCF200D7F937 /* Cepstrum-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8EB4CF841ABCCCF200D7F937 /* Cepstrum-Info.plist */; };
+		8EB4CF881ABCCCFC00D7F937 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EB4CF871ABCCCFC00D7F937 /* main.m */; };
+		8EB4CF8B1ABCCD1400D7F937 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8EB4CF891ABCCD1400D7F937 /* InfoPlist.strings */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		37AD58BC145186CF000D2D8D /* Cepstrum.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cepstrum.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		37AD58C0145186CF000D2D8D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		37AD58C2145186CF000D2D8D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		37AD58C4145186CF000D2D8D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		37AD58E214518A1A000D2D8D /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		8E0483741ABDC40F0090B24F /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "Cepstrum/Default-568h@2x.png"; sourceTree = SOURCE_ROOT; };
+		8E0483751ABDC40F0090B24F /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = Cepstrum/Default.png; sourceTree = SOURCE_ROOT; };
+		8E0483761ABDC40F0090B24F /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "Cepstrum/Default@2x.png"; sourceTree = SOURCE_ROOT; };
+		8E8567121A5DF1830048124D /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		8EB4CF761ABCCCA600D7F937 /* PlotterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PlotterView.h; path = Cepstrum/PlotterView.h; sourceTree = SOURCE_ROOT; };
+		8EB4CF771ABCCCA600D7F937 /* PlotterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PlotterView.m; path = Cepstrum/PlotterView.m; sourceTree = SOURCE_ROOT; };
+		8EB4CF791ABCCCB400D7F937 /* AudioProcessor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AudioProcessor.h; path = Cepstrum/AudioProcessor.h; sourceTree = SOURCE_ROOT; };
+		8EB4CF7A1ABCCCB400D7F937 /* AudioProcessor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AudioProcessor.m; path = Cepstrum/AudioProcessor.m; sourceTree = SOURCE_ROOT; };
+		8EB4CF7C1ABCCCC200D7F937 /* MyAudioViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MyAudioViewController.h; path = Cepstrum/MyAudioViewController.h; sourceTree = SOURCE_ROOT; };
+		8EB4CF7D1ABCCCC200D7F937 /* MyAudioViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MyAudioViewController.m; path = Cepstrum/MyAudioViewController.m; sourceTree = SOURCE_ROOT; };
+		8EB4CF7F1ABCCCCD00D7F937 /* MyAudioViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MyAudioViewController.xib; path = Cepstrum/MyAudioViewController.xib; sourceTree = SOURCE_ROOT; };
+		8EB4CF811ABCCCD800D7F937 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Cepstrum/AppDelegate.h; sourceTree = SOURCE_ROOT; };
+		8EB4CF821ABCCCD800D7F937 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = Cepstrum/AppDelegate.m; sourceTree = SOURCE_ROOT; };
+		8EB4CF841ABCCCF200D7F937 /* Cepstrum-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "Cepstrum-Info.plist"; path = "Cepstrum/Cepstrum-Info.plist"; sourceTree = SOURCE_ROOT; };
+		8EB4CF851ABCCCF200D7F937 /* Cepstrum-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Cepstrum-Prefix.pch"; path = "Cepstrum/Cepstrum-Prefix.pch"; sourceTree = SOURCE_ROOT; };
+		8EB4CF871ABCCCFC00D7F937 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = Cepstrum/main.m; sourceTree = SOURCE_ROOT; };
+		8EB4CF8A1ABCCD1400D7F937 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = Cepstrum/en.lproj/InfoPlist.strings; sourceTree = SOURCE_ROOT; };
+		8EC989961ABDBD92005E17D6 /* define.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = define.h; path = Cepstrum/define.h; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		37AD58B9145186CF000D2D8D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E8567131A5DF1830048124D /* Accelerate.framework in Frameworks */,
+				37AD58E314518A1A000D2D8D /* AudioToolbox.framework in Frameworks */,
+				37AD58C1145186CF000D2D8D /* UIKit.framework in Frameworks */,
+				37AD58C3145186CF000D2D8D /* Foundation.framework in Frameworks */,
+				37AD58C5145186CF000D2D8D /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3785BDD21451BBC500009036 /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+				8EB4CF791ABCCCB400D7F937 /* AudioProcessor.h */,
+				8EB4CF7A1ABCCCB400D7F937 /* AudioProcessor.m */,
+			);
+			name = Audio;
+			sourceTree = "<group>";
+		};
+		3785BDD31451BBD600009036 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3785BDD41451BBE000009036 /* Controller */,
+				3785BDD51451BBED00009036 /* Nibs */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		3785BDD41451BBE000009036 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8EB4CF7C1ABCCCC200D7F937 /* MyAudioViewController.h */,
+				8EB4CF7D1ABCCCC200D7F937 /* MyAudioViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		3785BDD51451BBED00009036 /* Nibs */ = {
+			isa = PBXGroup;
+			children = (
+				8EB4CF7F1ABCCCCD00D7F937 /* MyAudioViewController.xib */,
+			);
+			name = Nibs;
+			sourceTree = "<group>";
+		};
+		37AD58B1145186CE000D2D8D = {
+			isa = PBXGroup;
+			children = (
+				37AD58C6145186CF000D2D8D /* Cesptrum */,
+				37AD58BF145186CF000D2D8D /* Frameworks */,
+				37AD58BD145186CF000D2D8D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		37AD58BD145186CF000D2D8D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				37AD58BC145186CF000D2D8D /* Cepstrum.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		37AD58BF145186CF000D2D8D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8E8567121A5DF1830048124D /* Accelerate.framework */,
+				37AD58E214518A1A000D2D8D /* AudioToolbox.framework */,
+				37AD58C0145186CF000D2D8D /* UIKit.framework */,
+				37AD58C2145186CF000D2D8D /* Foundation.framework */,
+				37AD58C4145186CF000D2D8D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		37AD58C6145186CF000D2D8D /* Cesptrum */ = {
+			isa = PBXGroup;
+			children = (
+				8EC54CE81A6D23B900C68738 /* Plotter */,
+				3785BDD21451BBC500009036 /* Audio */,
+				3785BDD31451BBD600009036 /* Views */,
+				37AD58E414518AA4000D2D8D /* Delegate */,
+				37AD58C7145186CF000D2D8D /* Supporting Files */,
+			);
+			name = Cesptrum;
+			path = MicInput;
+			sourceTree = "<group>";
+		};
+		37AD58C7145186CF000D2D8D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8EB4CF891ABCCD1400D7F937 /* InfoPlist.strings */,
+				8EB4CF841ABCCCF200D7F937 /* Cepstrum-Info.plist */,
+				8EB4CF851ABCCCF200D7F937 /* Cepstrum-Prefix.pch */,
+				8E0483741ABDC40F0090B24F /* Default-568h@2x.png */,
+				8E0483751ABDC40F0090B24F /* Default.png */,
+				8E0483761ABDC40F0090B24F /* Default@2x.png */,
+				8EB4CF871ABCCCFC00D7F937 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		37AD58E414518AA4000D2D8D /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				8EC989961ABDBD92005E17D6 /* define.h */,
+				8EB4CF811ABCCCD800D7F937 /* AppDelegate.h */,
+				8EB4CF821ABCCCD800D7F937 /* AppDelegate.m */,
+			);
+			name = Delegate;
+			sourceTree = "<group>";
+		};
+		8EC54CE81A6D23B900C68738 /* Plotter */ = {
+			isa = PBXGroup;
+			children = (
+				8EB4CF761ABCCCA600D7F937 /* PlotterView.h */,
+				8EB4CF771ABCCCA600D7F937 /* PlotterView.m */,
+			);
+			name = Plotter;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		37AD58BB145186CF000D2D8D /* Cepstrum */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 37AD58D4145186CF000D2D8D /* Build configuration list for PBXNativeTarget "Cepstrum" */;
+			buildPhases = (
+				37AD58B8145186CF000D2D8D /* Sources */,
+				37AD58B9145186CF000D2D8D /* Frameworks */,
+				37AD58BA145186CF000D2D8D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Cepstrum;
+			productName = MicInput;
+			productReference = 37AD58BC145186CF000D2D8D /* Cepstrum.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		37AD58B3145186CE000D2D8D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "SEMIKRON International GmbH";
+			};
+			buildConfigurationList = 37AD58B6145186CE000D2D8D /* Build configuration list for PBXProject "Cepstrum" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 37AD58B1145186CE000D2D8D;
+			productRefGroup = 37AD58BD145186CF000D2D8D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				37AD58BB145186CF000D2D8D /* Cepstrum */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		37AD58BA145186CF000D2D8D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EB4CF8B1ABCCD1400D7F937 /* InfoPlist.strings in Resources */,
+				8EB4CF801ABCCCCD00D7F937 /* MyAudioViewController.xib in Resources */,
+				8E0483791ABDC40F0090B24F /* Default@2x.png in Resources */,
+				8E0483781ABDC40F0090B24F /* Default.png in Resources */,
+				8EB4CF861ABCCCF200D7F937 /* Cepstrum-Info.plist in Resources */,
+				8E0483771ABDC40F0090B24F /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		37AD58B8145186CF000D2D8D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EB4CF781ABCCCA600D7F937 /* PlotterView.m in Sources */,
+				8EB4CF831ABCCCD800D7F937 /* AppDelegate.m in Sources */,
+				8EB4CF7B1ABCCCB400D7F937 /* AudioProcessor.m in Sources */,
+				8EB4CF881ABCCCFC00D7F937 /* main.m in Sources */,
+				8EB4CF7E1ABCCCC200D7F937 /* MyAudioViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8EB4CF891ABCCD1400D7F937 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8EB4CF8A1ABCCD1400D7F937 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		37AD58D2145186CF000D2D8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=*]" = "iPhone Developer: PATRICK MURINGER-TULEU (2U5DNY63PV)";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		37AD58D3145186CF000D2D8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=*]" = "iPhone Developer: PATRICK MURINGER-TULEU (2U5DNY63PV)";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		37AD58D5145186CF000D2D8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Cepstrum/Cepstrum-Prefix.pch";
+				INFOPLIST_FILE = "Cepstrum/Cepstrum-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = Cepstrum;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		37AD58D6145186CF000D2D8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Cepstrum/Cepstrum-Prefix.pch";
+				INFOPLIST_FILE = "Cepstrum/Cepstrum-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = Cepstrum;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		37AD58B6145186CE000D2D8D /* Build configuration list for PBXProject "Cepstrum" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37AD58D2145186CF000D2D8D /* Debug */,
+				37AD58D3145186CF000D2D8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		37AD58D4145186CF000D2D8D /* Build configuration list for PBXNativeTarget "Cepstrum" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37AD58D5145186CF000D2D8D /* Debug */,
+				37AD58D6145186CF000D2D8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 37AD58B3145186CE000D2D8D /* Project object */;
+}
