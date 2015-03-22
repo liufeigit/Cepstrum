@@ -309,7 +309,7 @@ static OSStatus playbackCallback(void *inRefCon, AudioUnitRenderActionFlags *ioA
         inputBufferFloat[i] = 0.5f*(sinf(2*PI*freq*i/(mFFTSize-1)));
         inputBufferFloat[i] *= (float) (((float)mFFTSize-i)/(float)mFFTSize);
         if(i>self.delay) { inputBufferFloat[i] += (float) (((float)mFFTSize-i)/(float)mFFTSize)*0.4f*(sinf(2*3.14159*freq*i/(mFFTSize-1)));}
-        if(i>2*self.delay) { inputBufferFloat[i] += (float) (((float)mFFTSize-i)/(float)mFFTSize)*0.5f*(sinf(2*3.14159*freq*i/(mFFTSize-1)));}
+        //if(i>2*self.delay) { inputBufferFloat[i] += (float) (((float)mFFTSize-i)/(float)mFFTSize)*0.5f*(sinf(2*3.14159*freq*i/(mFFTSize-1)));}
     }
     
     {
