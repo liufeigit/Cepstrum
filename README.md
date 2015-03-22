@@ -25,13 +25,20 @@ same as the input data.
 
 Please help if you find this project interesting for you
 
+Some thoughts:
+no windowing yet. Might be necessary to add windowing + overlap for further realtime possibility
+phase problem issue introduced by FFT and Log?
+Other?
+
 Patrick
 
 here are some screenshots
-
+Original signal
 ![Alt text](https://github.com/PatrickMuringer/Cepstrum/blob/master/Cepstrum/images/signal.png?raw=true "Original Signal")
 
+Original signal cannot be reconstructed (see Modified signal) even if no echo or no lifter is used
 ![Alt text](https://github.com/PatrickMuringer/Cepstrum/blob/master/Cepstrum/images/app%20startup.png?raw=true "Startup of the project")
 
+Result when adding echo
 ![Alt text](https://github.com/PatrickMuringer/Cepstrum/blob/master/Cepstrum/images/app%20startup%20with%20echo.png?raw=true "When adding echo")
 
