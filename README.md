@@ -26,3 +26,12 @@ same as the input data.
 Please help if you find this project interesting for you
 
 Patrick
+
+here are some screenshots
+
+![Alt text](https://github.com/PatrickMuringer/Cepstrum/blob/master/Cepstrum/images/signal.png?raw=true "Original Signal")
+
+![Alt text](https://github.com/PatrickMuringer/Cepstrum/blob/master/Cepstrum/images/app%20startup.png?raw=true "Startup of the project")
+
+![Alt text](https://github.com/PatrickMuringer/Cepstrum/blob/master/Cepstrum/images/app%20startup%20with%20echo.png?raw=true "When adding echo")
+
